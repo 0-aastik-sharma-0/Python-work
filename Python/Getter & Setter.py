@@ -1,9 +1,3 @@
-
-
-
-
-
-
 class bus:
     def __init__(self,name,depot):
         self.name = name
