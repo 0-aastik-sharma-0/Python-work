@@ -1,13 +1,14 @@
 class school:
-    def __init__(self,student,class):
+    def __init__(self,student,id):
         self.student = student
-        self.__class = class
-    def set_class(self,student,class):
-        self.__class = class
-    def get_class(self):
-        return self.__class
+        self.__id = id
+    def set_id(self,student,id):
+        self.__id = id
+    def get_id(self):
+        return self.__id
 
 b1 = school("Puchku",10)
+print(b1.student,b1.get_id())
 
 
 
