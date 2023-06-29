@@ -1,3 +1,6 @@
+''' The methods which are meant to set a value to a private variable are called setter methods
+The methods meant to access private variable values are called getter methods '''
+
 class school:
     def __init__(self,student,id):
         self.student = student
