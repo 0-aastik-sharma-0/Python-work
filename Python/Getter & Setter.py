@@ -1,13 +1,13 @@
-class bus:
-    def __init__(self,name,depot):
-        self.name = name
-        self.__depot = depot
-    def set_depot(self,name,depot):
-        self.__depot = depot
-    def get_depot(self):
-        return self.__depot
+class school:
+    def __init__(self,student,class):
+        self.student = student
+        self.__class = class
+    def set_class(self,student,class):
+        self.__class = class
+    def get_class(self):
+        return self.__class
 
-b1 = bus("HRTC","f")
+b1 = school("Puchku",10)
 
 
 
